@@ -85,7 +85,7 @@ class DescuentoState extends State<Descuento>{
               
 ),
             new RaisedButton(
-                    color: Colors.purple,
+                    color: Colors.green,
                     textColor: Colors.white,
                     child: Text(
                       " 0.01",
@@ -97,7 +97,7 @@ class DescuentoState extends State<Descuento>{
               
               ),
              new RaisedButton(
-                    color: Colors.purple,
+                    color: Colors.green,
                     textColor: Colors.white,
                     child: Text(
                       " 0.05",
@@ -110,7 +110,7 @@ class DescuentoState extends State<Descuento>{
              
               ),
             new RaisedButton(
-                    color: Colors.purple,
+                    color: Colors.green,
                     textColor: Colors.white,
                     child: Text(
                       " 0.25",
@@ -123,7 +123,7 @@ class DescuentoState extends State<Descuento>{
              
               ),
             new RaisedButton(
-                    color: Colors.purple,
+                    color: Colors.green,
                     textColor: Colors.white,
                     child: Text(
                       " 0.5",
@@ -136,7 +136,7 @@ class DescuentoState extends State<Descuento>{
              
               ),
              new RaisedButton(
-                    color: Colors.indigo,
+                    color: Colors.grey[850],
                     textColor: Colors.white,
                     child: Text(
                       "Calcular Cambio",
@@ -150,7 +150,7 @@ class DescuentoState extends State<Descuento>{
               ),
             
             Text(
-              'Presiona varias veces',
+              'Practica Ingenieria de Software II',
             ),
              Text('Total: '
               '$contar',

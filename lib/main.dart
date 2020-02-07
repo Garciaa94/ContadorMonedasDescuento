@@ -62,13 +62,16 @@ class _State extends State<MyApp>{
       });
     },
       items: [
+        
       new BottomNavigationBarItem(
         icon: new Icon(Icons.image),
+        
         title: new Text(
         "Imagen",
         style: new TextStyle(
         fontWeight: FontWeight.bold,
-        fontSize: 14.0
+        fontSize: 14.0,
+        color: Colors.red
         ),)),
       new BottomNavigationBarItem(
         icon: new Icon(Icons.attach_money),
