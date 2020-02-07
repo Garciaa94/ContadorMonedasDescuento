@@ -83,8 +83,10 @@ class DescuentoState extends State<Descuento>{
                 
   ),
               
-),
-            new RaisedButton(
+), new Row( 
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: <Widget>[
+           new RaisedButton(
                     color: Colors.green,
                     textColor: Colors.white,
                     child: Text(
@@ -109,6 +111,11 @@ class DescuentoState extends State<Descuento>{
               onPressed:  _incrementCounter1,
              
               ),
+        ],),
+            new Row( 
+              
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: <Widget>[
             new RaisedButton(
                     color: Colors.green,
                     textColor: Colors.white,
@@ -135,6 +142,7 @@ class DescuentoState extends State<Descuento>{
               onPressed:  _incrementCounter3,
              
               ),
+          ],),
              new RaisedButton(
                     color: Colors.grey[850],
                     textColor: Colors.white,
