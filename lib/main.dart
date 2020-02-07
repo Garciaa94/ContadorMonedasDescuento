@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ejemplo_flutter/Imagenes.dart';
-import 'package:ejemplo_flutter/Descuento.dart';
-import 'package:ejemplo_flutter/Inicio.dart';
+import 'package:ejemplo_flutter/implementaciones/Imagenes.dart';
+import 'package:ejemplo_flutter/implementaciones/Descuento.dart';
+import 'package:ejemplo_flutter/implementaciones/Inicio.dart';
 
 void main(){
   runApp(new MaterialApp(
