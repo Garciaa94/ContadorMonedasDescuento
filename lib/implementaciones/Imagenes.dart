@@ -15,6 +15,7 @@ class ImagenesState extends State<Imagenes>{
   
   Widget build(BuildContext context) {
     return MaterialApp(
+            debugShowCheckedModeBanner: false,
       home: Scaffold(
         resizeToAvoidBottomPadding: false,
         body: Stack(

@@ -5,6 +5,7 @@ import 'package:ejemplo_flutter/implementaciones/Inicio.dart';
 
 void main(){
   runApp(new MaterialApp(
+          debugShowCheckedModeBanner: false,
     home: new MyApp(), 
   ));
 }
