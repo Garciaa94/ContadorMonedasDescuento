@@ -17,9 +17,9 @@ class MyApp extends StatefulWidget{
 class _State extends State<MyApp>{
   List<BottomNavigationBarItem> items;
   String values="";
-  final Key mapPage = PageStorageKey('map');
-  final Key poolPage = PageStorageKey('pool');
-  final Key schoolPage = PageStorageKey('school');
+  final Key imagenPage = PageStorageKey('imagen');
+  final Key descuentoPage = PageStorageKey('descuento');
+  final Key inicioPage = PageStorageKey('inicio');
   int currentTab = 0;
   Imagenes imagenes;
   Descuento descuento;
@@ -32,13 +32,13 @@ class _State extends State<MyApp>{
   void initState() {
     
     imagenes=new Imagenes(
-      key:mapPage,
+      key:imagenPage,
     );
     descuento=new Descuento(
-      key: poolPage,
+      key: descuentoPage,
     );
     inicio=new Inicio(
-      key:schoolPage,
+      key:inicioPage,
     );
     pages=[imagenes,descuento,inicio];
     currentPage = imagenes;
@@ -72,7 +72,7 @@ class _State extends State<MyApp>{
         style: new TextStyle(
         fontWeight: FontWeight.bold,
         fontSize: 14.0,
-        color: Colors.red
+        //color: Colors.red
         ),)),
       new BottomNavigationBarItem(
         icon: new Icon(Icons.attach_money),

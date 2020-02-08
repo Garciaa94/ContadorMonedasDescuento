@@ -21,7 +21,7 @@ class ImagenesState extends State<Imagenes>{
         body: Stack(
           fit:StackFit.expand, //expandir la imagen
           children: <Widget>[
-            Image.network("https://upload.wikimedia.org/wikipedia/commons/1/1b/Logo_de_EXO.png",
+            Image.network("https://k62.kn3.net/taringa/8/8/4/0/7/B/Nosha/550x977_1F6.jpg",
               fit:BoxFit.fill,
               ),
             Container(
